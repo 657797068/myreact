@@ -1,0 +1,94 @@
+
+@import "../assets/iconfont/iconfont.css";
+@import "../scripts/components/list/index.scss";
+
+@import "../scripts/containers/book/index.scss";
+@import "./common/antd-mobile.css";
+@import "../scripts/containers/detail/index.scss";
+@import "../scripts/containers/bookrack/index.scss";
+@import "../scripts/containers/classify/index.scss";
+@import "../scripts/containers/find/index.scss";
+*{
+    margin: 0;
+    padding: 0;
+    // font-size: 50px;
+}
+.newBook_list{
+    margin-bottom: 100px
+}
+
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+    }
+    .clear{zoom:1;}
+
+    .content{
+        width: 1200px;
+        height: 1300px;
+        margin: auto;
+        border: 3px solid #f0f;
+        text-align: center;
+        padding: 50px;
+        .commentList{
+            width: 100%;
+            height: 600px;
+            border-top:2px solid #dddddd;
+            overflow-y: scroll;
+            text-align: left;
+            padding-left: 30px;
+        }
+        .text{
+            input{
+                width: 90%;
+                margin-bottom: 50px;
+            }
+            textarea{
+                width: 90%;
+                height: 300px;
+                resize:none;
+            }
+            button{
+                width: 30%;
+                height: 100px;
+            }
+        }
+    }
+    .com{
+        border-bottom: 2px solid #f0f;
+    }
+
+.verifyBtn{
+    width: 700px;
+    flex: none !important;
+}
+    .hintBtn{
+        width: 100%;
+    }
+    .register_text{
+        text-align: right
+    }
+.register_head{
+    background: #ddd;
+}
+
+.classifyList{
+    .classify_left{
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+    }
+    .classify_right{
+        display: inline-block;
+        width: 50%;
+        text-align: right;
+    }
+    .am-list-item img{
+        width: 400px;
+        height: 600px
+    }
+}

@@ -1,0 +1,34 @@
+.classify{
+    width: 100%;
+    
+    .classify_list{
+        width: 20%;
+        float: left;
+        color: #000;
+        text-align: center;
+        font-size: 100px;
+        padding:100px 0;
+        p{
+            i{
+                font-size: 250px;
+            }
+            
+        }
+        // line-height: 300px;
+    }
+    .list1{
+        color: #78b7ff;
+    }
+    .list2{
+        color: #ff737a;
+    }
+    .list3{
+        color: #ffa877;
+    }
+    .list4{
+        color: #ffe9a1;
+    }
+    .list5{
+        color: #c570ff;
+    }
+}

@@ -1,0 +1,22 @@
+@keyframes rota{
+    from{transform:rotateZ(0deg)}
+    to{transform:rotateZ(360deg)}
+}
+.ro{
+    animation: rota 2S both linear infinite;
+}
+.play{
+    animation-play-state: running;
+}
+.pause{
+    animation-play-state:paused;
+}
+.find{
+    width: 100%;
+    text-align: center;
+}
+#find_img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}

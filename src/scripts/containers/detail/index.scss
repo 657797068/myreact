@@ -1,0 +1,51 @@
+.detail{
+    .detail_top{
+        
+        .top_left{
+           margin-right: 5%;
+            display: inline-block;
+            width: 30%;
+            height: 100%;
+            img{
+                width: 100%;
+                
+            }
+        }
+        .top_right{
+            color:#555;
+            display: inline-block;
+            width: 65%;
+            height: 100%;
+            font-size: 100px;
+            h4,h5{
+            font-weight: normal;
+            }
+        }
+    }
+}
+// .detail_book{
+//     margin-top: 50px;
+// }
+.intro{
+    // padding: 
+    border-bottom: #ddd 2px solid;
+}
+.intro_text{
+    padding: 40px;
+    font-size: 100px;
+    
+}
+.intro_class{
+    padding: 40px;
+    .class_label{
+        display: inline-block;
+        width: 350px;
+        height: 200px;
+        border:10px solid #ddd;
+        font-size: 110px;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 50px;
+
+    }
+}

@@ -1,0 +1,55 @@
+.sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 15px 0 9px 15px;
+  }
+  .not-square-grid .am-grid-icon {
+    width: 40px;
+    height: 60px;
+  }
+  .newBooks{
+      width: 300%;
+      height: 100%;
+      .newBook_list{
+          float: left;
+          width: 10%;
+      }
+  }
+.tabs_vacancy{
+    width: 100%;
+    height: 0;;
+    border-bottom:100px solid #ddd;
+}
+  .newBook_list{
+            a{
+                width: 600px;
+                height:  100%;
+                display: inline-block;
+                font-size: 80px;
+                color:#108ee9;
+                h3{
+                    width: 600px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    margin:50px 0;
+                }
+                p{
+                    width: 600px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                div{
+                    width: 600px;
+                        height:  900px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                // img{
+                //     width: 120px;
+                // }
+            }
+  }
